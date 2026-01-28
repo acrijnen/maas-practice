@@ -38,6 +38,8 @@ if "last_exchange" not in st.session_state:
     st.session_state.last_exchange = None
 if "user_feedback_given" not in st.session_state:
     st.session_state.user_feedback_given = False
+if "feedback_focus" not in st.session_state:
+    st.session_state.feedback_focus = "Balanced"
 
 # Configuration - Feedback email
 FEEDBACK_EMAIL = "acrijnen@gmail.com"
@@ -260,13 +262,23 @@ def get_patient_response(messages, system_prompt):
         return f"Error: {str(e)}"
 
 
-def generate_feedback(patient, consultation, messages, feedback_type="full"):
-    """Generate MAAS-mapped feedback on the consultation."""
+def generate_feedback(patient, consultation, messages, feedback_type="full", focus="Balanced"):
+    """Generate feedback on the consultation based on focus setting."""
     api_key = get_api_key()
     if not api_key:
         return "Error: ANTHROPIC_API_KEY not set."
 
-    feedback_prompt = load_prompt("feedback-generation")
+    # Select prompt based on feedback focus
+    if focus == "Interview skills":
+        feedback_prompt = load_prompt("feedback-interviewing")
+    elif focus == "Problem-solving":
+        feedback_prompt = load_prompt("feedback-problem-solving")
+    else:
+        feedback_prompt = load_prompt("feedback-balanced")
+
+    # Fall back to generic if specific prompt not found
+    if not feedback_prompt:
+        feedback_prompt = load_prompt("feedback-generation")
 
     # Build transcript
     transcript = "\n".join([
@@ -468,6 +480,16 @@ def main():
                     for obj in selected_consultation['learning_objectives']:
                         st.markdown(f"- {obj}")
 
+                st.divider()
+                st.markdown("**Feedback focus:**")
+                feedback_focus = st.radio(
+                    "What do you want to focus on?",
+                    options=["Interview skills", "Balanced", "Problem-solving"],
+                    index=1,
+                    help="This shapes the feedback you receive at the end.",
+                    label_visibility="collapsed"
+                )
+
                 if st.button("Start Interview", type="primary"):
                     st.session_state.patient = selected_patient
                     st.session_state.consultation = selected_consultation
@@ -478,12 +500,14 @@ def main():
                     st.session_state.last_exchange = None
                     st.session_state.user_feedback_given = False
                     st.session_state.user_feedback_text = None
+                    st.session_state.feedback_focus = feedback_focus
                     st.rerun()
 
         else:
             # Active session controls
             st.markdown(f"**Patient:** {st.session_state.patient['patient']['name']}")
             st.markdown(f"**Consultation:** {st.session_state.consultation['title']}")
+            st.markdown(f"**Focus:** {st.session_state.feedback_focus}")
             st.markdown(f"**Messages:** {len(st.session_state.messages)}")
 
             st.divider()
@@ -627,7 +651,7 @@ def main():
         # Generate and show feedback
         if not st.session_state.feedback_shown:
             with st.spinner("Generating feedback..."):
-                feedback = generate_feedback(patient, consultation, st.session_state.messages, "full")
+                feedback = generate_feedback(patient, consultation, st.session_state.messages, "full", st.session_state.feedback_focus)
                 st.session_state.feedback = feedback
                 st.session_state.feedback_shown = True
 
