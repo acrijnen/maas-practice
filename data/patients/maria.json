@@ -1,0 +1,607 @@
+{
+  "patient_id": "maria",
+
+  "patient": {
+    "name": "Maria Santos",
+    "age": 42,
+    "gender": "Female",
+    "occupation": "Cleaner (part-time) + kitchen helper (part-time)",
+    "education_level": "Some secondary school (left at 16)",
+    "language_fluency": "fluent",
+    "personality": {
+      "baseline_style": "reserved",
+      "trust_building": "Opens up when feels respected and not judged. Responds to genuine curiosity about her life, not just her disease. Needs to feel doctor understands her constraints.",
+      "core_traits": "Proud, hardworking, doesn't want pity. Embarrassed about her situation but not her fault. Protective of her children. Carries guilt about not being able to manage her health better. Scared but trying to stay strong."
+    }
+  },
+
+  "background": {
+    "living_situation": "Small social housing flat in outer district",
+    "family": "Two children — daughter (10, doing well), son (14, having troubles). Separated from partner 5 years ago.",
+    "support_system": "Sister lives in same city, helps with kids sometimes. Mother in Portugal (talks by WhatsApp). Portuguese community at church.",
+    "work_context": "Two part-time jobs: cleaning offices early morning, kitchen work at restaurant evenings. About 45 hours/week total but irregular schedule. Zero-hour contracts — no paid sick leave, no benefits. Missing work = missing income.",
+    "social_circumstances": {
+      "economic": "€1,400/month net. Rent €900. After utilities and food, very little left. Just above threshold for additional support.",
+      "housing": "Social housing flat, adequate but small for family of 3",
+      "transportation": "No car. OV-chipkaart for bus but costs add up. Some appointments require multiple buses.",
+      "healthcare_access": "Basic zorgverzekering but eigen risico (€385/year) is major barrier. Delays care until eigen risico met. Pharmacy 30-min bus ride away."
+    },
+    "cultural_context": "Portuguese immigrant. Dutch as second language — speaks adequately but reads Portuguese better. Medical terminology difficult. Has felt rushed at appointments, suspects it's because of her accent."
+  },
+
+  "baseline_medical_history": {
+    "past_medical": [
+      "Type 2 diabetes mellitus — diagnosed 3 years ago",
+      "Hypertension — diagnosed 2 years ago",
+      "Overweight (BMI 31)"
+    ],
+    "medications": [
+      "Metformin 500mg twice daily (when she has it — often waits until eigen risico met)",
+      "Lisinopril 10mg daily (takes most days)"
+    ],
+    "allergies": [],
+    "surgical_history": ["Caesarean section (14 years ago)"],
+    "family_history": [
+      "Mother: type 2 diabetes (on insulin)",
+      "Father: died of heart attack at 58",
+      "Aunt: diabetes, had foot amputated — Maria's deep fear"
+    ],
+    "social_history": {
+      "smoking": "Never",
+      "alcohol": "Rarely — occasionally at family gatherings",
+      "drugs": null
+    }
+  },
+
+  "consultations": [
+    {
+      "consultation_id": 1,
+      "title": "Diabetes — Social Determinants",
+      "type": "initial",
+      "links_to": null,
+      "difficulty": "intermediate",
+      "estimated_duration_minutes": 15,
+
+      "scenario": {
+        "time_context": "Called in after concerning lab results",
+        "appearance": "Looks tired. In work clothes. Came directly from cleaning shift. Checking phone occasionally — worried about getting to next job.",
+        "emotional_state": "Stressed, overwhelmed, embarrassed about situation. Trying to stay strong.",
+        "trust_level": "guarded"
+      },
+
+      "history_at_this_point": {
+        "additions_since_baseline": [
+          "HbA1c now 74 mmol/mol (was 66 a year ago)",
+          "Early peripheral neuropathy developing",
+          "Microalbuminuria detected",
+          "Was prescribed gliclazide but couldn't afford to start it"
+        ],
+        "current_medications": [
+          "Metformin 500mg BD (inconsistent — waits for eigen risico)",
+          "Lisinopril 10mg daily (most days)"
+        ],
+        "relevant_context": "Got letter from huisarts about concerning blood values. Diabetes worsening despite 'knowing what to do' — but circumstances make control nearly impossible."
+      },
+
+      "presenting_problem": {
+        "stated_reason": "Got a letter about my diabetes. Need to check on it.",
+        "real_reason": "Scared because things are getting worse and doesn't know how to fix it",
+        "hidden_agenda": "Needs refills but also needs someone to understand why she can't do everything they tell her"
+      },
+
+      "complaint": {
+        "chief_complaint": "Got a letter saying I need to come in about my diabetes. Also my feet have been hurting.",
+
+        "heuristic_1_nature": {
+          "description": "General symptoms: fatigue, increased thirst, blurry vision. Foot pain: aching, burning in soles.",
+          "quality": "Fatigue is constant tiredness. Foot pain is burning and aching.",
+          "location": "Feet — mainly the soles, both feet",
+          "radiation": null,
+          "severity": "Fatigue 6/10, foot pain 5/10"
+        },
+
+        "heuristic_2_time": {
+          "onset": "gradual",
+          "onset_description": "Fatigue getting worse over 6 months. Foot symptoms started 4 months ago.",
+          "duration": "Continuous fatigue, foot pain builds throughout day",
+          "frequency": "Daily",
+          "pattern": "constant",
+          "course": "Slowly getting worse"
+        },
+
+        "heuristic_3_modifiers": {
+          "triggers": ["Standing all day", "Hot weather", "After eating"],
+          "aggravating_factors": ["Long shifts on feet", "When runs out of medication", "Stressful days"],
+          "relieving_factors": ["Rest (when she can get it)", "Elevating feet", "Consistent medication"]
+        },
+
+        "heuristic_4_accompanying": {
+          "associated_symptoms": ["Increased thirst", "Frequent urination", "Occasional blurry vision", "Tingling in feet", "Slow healing cuts"],
+          "absent_symptoms": ["No foot ulcers (yet)", "No chest pain", "No significant weight loss"],
+          "constitutional": {
+            "fever": false,
+            "weight_change": "Gained 5 kg over past year",
+            "fatigue": true
+          }
+        }
+      },
+
+      "ideas_concerns_expectations": {
+        "ideas": "Knows diabetes is serious, knows she should eat better and exercise. Believes her situation makes it impossible.",
+        "concerns": "Losing her feet like her aunt. Going blind. Not being able to work and support her kids. Being judged as a bad patient.",
+        "expectations": "Wants medication refills. Hopes doctor will understand her situation. Would like help figuring out what she can actually do."
+      },
+
+      "red_flags": {
+        "present": ["Worsening diabetes control (HbA1c rising)", "Evidence of neuropathy", "Early nephropathy", "Uncontrolled hypertension", "Strong family history"],
+        "absent": ["No foot ulcers", "No retinopathy (needs check)", "No ACS symptoms"],
+        "notes": "Not acutely dangerous but on trajectory toward serious complications. Window for prevention narrowing."
+      },
+
+      "diagnosis": {
+        "working_diagnosis": "Poorly controlled type 2 diabetes with early complications, in context of significant socioeconomic barriers",
+        "differential": [],
+        "key_findings": ["HbA1c 74 mmol/mol (up from 66)", "Peripheral neuropathy", "Microalbuminuria", "Medication non-adherence due to cost/access", "Multiple social determinants affecting care"]
+      },
+
+      "simulation_guidance": {
+        "initial_presentation": "Comes in still in work clothes, rushed. Polite but guarded. 'I got a letter about my diabetes?' Checks phone — worried about getting to afternoon shift.",
+        "information_reveal": {
+          "freely_shared": ["Got letter saying blood values are not good", "Takes metformin", "Works two jobs", "Feet have been hurting"],
+          "if_asked_directly": ["Sometimes runs out of medication — waiting for eigen risico", "Can't always afford healthy food", "Hard to get to appointments", "No car, depends on bus", "Two children at home"],
+          "if_asked_sensitively": ["Eigen risico means she delays medication and appointments", "Scared about ending up like her aunt (amputee)", "Feels rushed at appointments, maybe because of accent", "Doesn't know how to eat healthy on her budget", "Embarrassed — she works hard but still struggles"],
+          "will_not_share": ["Depth of financial struggle without trust", "How scared she really is without empathy first", "Father's early death unless family history explored"]
+        },
+        "emotional_moments": ["When asked what makes diabetes management hard (may tear up)", "When family history discussed (aunt's amputation)", "If student shows genuine understanding", "When discussing children"],
+        "guardrails": ["Stay in character as working-class immigrant single mother", "Show time pressure", "If lectured, become more guarded", "If listened to, open up more", "Show pride — wants partnership, not pity"]
+      },
+
+      "maas_focus": {
+        "primary_scales": ["Scale 2 (History-taking)", "Scale B (Interpersonal)", "Scale 3 (Presenting Solutions)"],
+        "key_items": ["2.13 — Social circumstances affecting health (PRIMARY FOCUS)", "2.9 — Maintaining factors", "2.14 — Psychological aspects", "2.15-2.16 — Functional impact", "1.3-1.5 — ICE", "B.5 — Responds to emotions", "B.7 — Does not appear hurried", "3.4-3.5 — Shared decision-making for her reality"],
+        "learning_notes": "This case is designed specifically for MAAS item 2.13. Student must explore social determinants systematically: economic, education, neighbourhood/food, healthcare access, social support. Key insight: Maria's 'non-compliance' is rational response to impossible circumstances. Even with universal coverage, eigen risico, precarious employment, and language barriers create obstacles. Student who lectures about diet without exploring barriers will miss the point."
+      },
+
+      "learning_objectives": [
+        "Practice exploring social determinants of health (item 2.13)",
+        "Recognize how socioeconomic factors affect disease management",
+        "Identify barriers to treatment that are not medical non-compliance",
+        "Develop realistic treatment plans that account for patient circumstances"
+      ]
+    },
+
+    {
+      "consultation_id": 2,
+      "title": "Diabetes — Follow-Up with New Stressor",
+      "type": "follow_up",
+      "links_to": 1,
+      "difficulty": "intermediate",
+      "estimated_duration_minutes": 12,
+
+      "scenario": {
+        "time_context": "Six weeks after consultation 1",
+        "appearance": "Looks slightly less tired. Still in work clothes but seems a bit more relaxed. Made effort to come on time.",
+        "emotional_state": "Cautiously hopeful about some things, worried about new problems at home. More trusting because felt heard last time.",
+        "trust_level": "moderate-high"
+      },
+
+      "student_briefing": {
+        "_note": "Information visible to student before starting this consultation",
+        "previous_visit": "Six weeks ago you saw Maria Santos (42) for poorly controlled diabetes with multiple social barriers. You arranged diabetesverpleegkundige support, social work referral for eigen risico, and adjusted her medications.",
+        "results_since_last_visit": {
+          "HbA1c": "Not yet due — was 74 mmol/mol at last check",
+          "Fundoscopy": "Still pending — patient had to reschedule"
+        },
+        "medications_started": ["Metformin 850mg BD (increased)", "Gliclazide 30mg daily (new)", "Lisinopril 10mg daily (continued)"],
+        "reason_for_today": "Scheduled follow-up for diabetes management"
+      },
+
+      "history_at_this_point": {
+        "additions_since_baseline": [
+          "Metformin increased to 850mg BD",
+          "Gliclazide 30mg started (had 2-week gap)",
+          "Diabetesverpleegkundige referral — seen twice",
+          "Maatschappelijk werk referral — application submitted for eigen risico support",
+          "Fundoscopy still pending (had to reschedule)",
+          "Son having trouble at school — new stressor"
+        ],
+        "current_medications": [
+          "Metformin 850mg BD (taking consistently now)",
+          "Gliclazide 30mg daily (had 2-week gap, back on now)",
+          "Lisinopril 10mg daily"
+        ],
+        "relevant_context": "Some improvements with support in place. New worry: 14-year-old son skipping school, won't talk to her. Stress affecting her."
+      },
+
+      "presenting_problem": {
+        "stated_reason": "Here for my diabetes check-up. To see how things are going.",
+        "real_reason": "Wants validation she's doing okay. Also worried about son but unsure if appropriate for medical appointment.",
+        "hidden_agenda": "Hoping doctor will ask about how she's doing generally, not just the diabetes. Needs someone to tell her she's not failing."
+      },
+
+      "complaint": {
+        "chief_complaint": "Here for my diabetes check-up. Things are a bit better, I think.",
+
+        "heuristic_1_nature": {
+          "description": "Foot pain still there but less intense. Fatigue improved but present.",
+          "quality": "Same burning in feet but milder. Tiredness more manageable.",
+          "location": "Both feet, soles",
+          "radiation": null,
+          "severity": "Foot pain 3/10 (was 5/10). Fatigue 4/10 (was 6/10)."
+        },
+
+        "heuristic_2_time": {
+          "onset": "gradual improvement",
+          "onset_description": "Started noticing less thirst after about 2 weeks on new medication",
+          "duration": "Foot pain still at end of day but doesn't keep her up",
+          "frequency": "Daily but less severe",
+          "pattern": "intermittent",
+          "course": "Improving"
+        },
+
+        "heuristic_3_modifiers": {
+          "triggers": ["Standing all day", "Stressful days (son)"],
+          "aggravating_factors": ["When forgets medication", "After long shift"],
+          "relieving_factors": ["Medication (when consistent)", "Rest", "Good day with kids"]
+        },
+
+        "heuristic_4_accompanying": {
+          "associated_symptoms": ["Less thirst", "Less frequent urination", "Vision seems stable", "Feet tingling still present"],
+          "absent_symptoms": ["No new wounds", "No chest pain", "No severe symptoms"],
+          "constitutional": {
+            "fever": false,
+            "weight_change": "Lost 1 kg",
+            "fatigue": true
+          }
+        }
+      },
+
+      "ideas_concerns_expectations": {
+        "ideas": "Thinks medication is helping. Wonders if stress with son is making things worse.",
+        "concerns": "Worried about son. Worried she missed eye appointment. Still scared about complications.",
+        "expectations": "Wants to hear she's doing okay. Wants to reschedule eye appointment. Maybe wants to talk about son if there's space."
+      },
+
+      "for_follow_up": {
+        "previous_consultation_summary": "Poorly controlled diabetes with multiple social barriers identified. Arranged diabetesverpleegkundige at convenient time, social work for finances, medication adjustments, fundoscopy referral.",
+        "what_was_recommended": ["Diabetesverpleegkundige at 17:00", "Maatschappelijk werk referral", "Metformin increase", "Start gliclazide", "Fundoscopy", "Simple dietary changes"],
+        "what_patient_remembers": ["Doctor understood her situation", "Got help arranged", "New medication — two pills now", "Watch sugary drinks", "Eye appointment made"],
+        "what_patient_forgot": ["Exact name of gliclazide", "What diabetesverpleegkundige said about timing", "When HbA1c check is due"],
+        "interval": {
+          "duration": "Six weeks",
+          "symptom_evolution": "improved",
+          "compliance": {
+            "medications": "partial",
+            "lifestyle": "partial",
+            "details": "Metformin consistent now (pharmacy auto-delivery). Gliclazide: 2-week gap when ran out. Stopped sweet coffee at work. Walking a bit more. Food choices still limited."
+          },
+          "patient_experience": "Mixed feelings: proud of small improvements, worried about son, exhausted but hopeful. Diabetesverpleegkundige was helpful. Sister more supportive. Son not talking to her."
+        },
+        "results": {
+          "tests": {
+            "Finger_prick_glucose_today": "9.2 mmol/L fasting (was 11.7)",
+            "BP_today": "142/88 mmHg (was 148/92)",
+            "Weight": "80 kg (was 81)"
+          },
+          "interpretation": "Modest improvement in glucose control with better adherence. Social interventions partially successful. New psychosocial stressor may affect ongoing management.",
+          "how_to_explain": "Good news: blood sugar is better — changes are working. Feet stable. Still work to do but on right track."
+        }
+      },
+
+      "red_flags": {
+        "present": ["Diabetes still not at target (though improving)", "Neuropathy unchanged", "Eye exam pending", "New psychosocial stressor"],
+        "absent": ["No deterioration in feet", "No new symptoms", "No acute complications"],
+        "notes": "Clinical trajectory positive. New stressor (son) needs attention — may affect Maria's ability to maintain improvements."
+      },
+
+      "diagnosis": {
+        "working_diagnosis": "Type 2 diabetes — improving control with ongoing management challenges and new psychosocial stressor",
+        "differential": [],
+        "key_findings": ["Fasting glucose improved", "Weight down 1 kg", "Adherence better except 2-week gap", "Engaged with support services", "New concern: son's behavioral problems"]
+      },
+
+      "simulation_guidance": {
+        "initial_presentation": "Comes in looking brighter than last time. Still in work clothes but on time. 'I came for my check-up. I think things are a bit better?' Tone hopeful but seeking validation.",
+        "information_reveal": {
+          "freely_shared": ["Feeling a bit better", "Taking medication", "Saw diabetesverpleegkundige — she was nice", "Feet hurt less"],
+          "if_asked_directly": ["Ran out of gliclazide for two weeks", "Had to reschedule eye appointment", "Still hard to eat healthy", "Saw social worker — waiting for decision", "Lost a little weight"],
+          "if_asked_sensitively": ["Worried about son — skipping school, won't talk to her", "Stress with son affecting her sleep and eating", "Wonders if family stress is making diabetes harder", "Scared what they'll find at eye check", "Sometimes feels like failing as a mother"],
+          "will_not_share": ["Won't bring up son unless asked about home/stress", "Won't admit how much son situation affects her without empathic opening", "Won't ask for help with son — doesn't know if appropriate"]
+        },
+        "emotional_moments": ["When doctor acknowledges progress (relief, maybe tears)", "When asked about what's hard at home (son)", "When discussing son's problems (guilt, worry)", "If doctor connects stress to health", "If doctor offers help for son's situation"],
+        "guardrails": ["More open than first visit but still reserved about family problems", "Seeking validation — respond positively if doctor notices improvement", "Withdraw if doctor only focuses on what's not perfect", "Son's situation is sensitive — needs space to emerge", "Still proud — doesn't want pity"]
+      },
+
+      "maas_focus": {
+        "primary_scales": ["Scale A (Structuring)", "Scale B (Interpersonal)", "Scale 3 (Presenting Solutions)"],
+        "key_items": ["A.2 — Bridging past and present", "A.5 — Interval exploration", "B.5 — Responds to emotions (validating progress)", "B.7/B.8 — Acknowledges effort and difficulty", "3.1 — Explains results (good news framing)", "3.4/3.5 — Treatment adjustment", "2.13 — Ongoing social circumstances (son)", "2.14 — Psychological aspects (stress)"],
+        "learning_notes": "This case teaches continuity with complex social factors. Key: (1) Bridge from previous visit, (2) Celebrate progress without dismissing challenges, (3) Explore what's changed — including NEW stressors, (4) Recognize family problems affect health. Hidden agenda (son) tests whether student creates space for whole person, not just disease. Best students ask about home life and connect stress to diabetes."
+      },
+
+      "learning_objectives": [
+        "Practice continuity in chronic disease management",
+        "Celebrate small wins while addressing ongoing barriers",
+        "Recognize how new life stressors affect disease management",
+        "Adjust treatment plans based on real-world results"
+      ]
+    },
+
+    {
+      "consultation_id": 3,
+      "title": "Family Crisis — Diabetes and the Teenage Son",
+      "type": "follow_up",
+      "links_to": 2,
+      "difficulty": "advanced",
+      "estimated_duration_minutes": 20,
+
+      "scenario": {
+        "time_context": "Three months after consultation 2. Maria brings her son Rafael.",
+        "appearance": "Maria looks exhausted and tense. Rafael (14) sits with arms crossed, not making eye contact. Atmosphere is strained. Maria asked specifically for extra time.",
+        "emotional_state": "Maria: desperate, ashamed, scared. Rafael: angry, embarrassed, underneath it all — terrified about his mother.",
+        "trust_level": "high (Maria trusts this doctor now)"
+      },
+
+      "student_briefing": {
+        "_note": "Information visible to student before starting this consultation",
+        "previous_visits": "You've seen Maria Santos (42) twice before. First visit: poorly controlled diabetes with social barriers. Second visit (6 weeks later): modest improvement, emerging concerns about her teenage son Rafael.",
+        "results_available": {
+          "HbA1c": "71 mmol/mol (was 68 at last check — going back up)",
+          "Fasting_glucose": "10.5 mmol/L",
+          "BP": "152/94 mmHg",
+          "Weight": "82 kg",
+          "Fundoscopy": "Mild background retinopathy detected"
+        },
+        "current_medications": ["Metformin 850mg BD", "Gliclazide 60mg daily (increased)", "Lisinopril 10mg daily", "Atorvastatin 20mg daily (new)"],
+        "reason_for_today": "Maria requested extra time. She's bringing her son Rafael (14) to the appointment.",
+        "what_you_know_about_rafael": "School problems mentioned at last visit. Maria was worried but didn't elaborate."
+      },
+
+      "history_at_this_point": {
+        "additions_since_baseline": [
+          "HbA1c now 68 mmol/mol — improved but worsened again recently",
+          "Fundoscopy completed — mild background retinopathy",
+          "Eigen risico support approved — medications now covered",
+          "Son Rafael's school problems escalated — suspended twice",
+          "Family conflict at home — arguments almost daily",
+          "Maria noticing she's more irritable when sugar is high",
+          "Daughter Sofia (10) becoming withdrawn, doing poorly at school"
+        ],
+        "current_medications": [
+          "Metformin 850mg BD",
+          "Gliclazide 60mg daily (increased)",
+          "Lisinopril 10mg daily",
+          "Atorvastatin 20mg daily (new — for retinopathy prevention)"
+        ],
+        "relevant_context": "Diabetes was improving but stress has derailed progress. Maria has noticed she snaps at the children when her sugar is high. Rafael has taken this personally and is acting out. A vicious cycle has developed: stress → poor diabetes control → irritability → family conflict → more stress."
+      },
+
+      "presenting_problem": {
+        "stated_reason": "I need help. It's not just about me anymore. Something is wrong with my family.",
+        "real_reason": "The family is falling apart. Maria feels like she's failing as a mother. She wonders if her diabetes is damaging her children.",
+        "hidden_agenda": "Maria secretly fears she is becoming like her own mother — diabetic, struggling, unable to give her children a good life. She needs to know this can be fixed."
+      },
+
+      "complaint": {
+        "chief_complaint": "My diabetes is getting worse again and I think it's affecting my children. My son... *looks at Rafael* ...we fight all the time now.",
+
+        "heuristic_1_nature": {
+          "description": "Maria: fatigue returned, mood swings, irritability especially in afternoons. Rafael: anger, withdrawal, sleep problems.",
+          "quality": "Maria: snappy, short-tempered, says things she regrets. Rafael: explosive anger, then silent treatment.",
+          "location": "The family home has become a battleground.",
+          "radiation": "Affecting daughter Sofia too — she's withdrawing.",
+          "severity": "Crisis level — Maria is considering whether children would be better off with her sister."
+        },
+
+        "heuristic_2_time": {
+          "onset": "gradual",
+          "onset_description": "Started about 2 months ago. First it was small arguments, then bigger. Now there's tension every day.",
+          "duration": "Daily conflict. Some days are worse — when Maria's tired after work, when Rafael comes home from school angry.",
+          "frequency": "Arguments almost every day. Silent standoffs in between.",
+          "pattern": "progressive",
+          "course": "Getting worse despite everyone trying"
+        },
+
+        "heuristic_3_modifiers": {
+          "triggers": ["Maria: high blood sugar, long work days, tiredness", "Rafael: school problems, friends making comments about money, feeling responsible for family"],
+          "aggravating_factors": ["Evenings when Maria comes home exhausted", "When Rafael asks about money", "When diabetes comes up", "When Rafael has to watch his sister"],
+          "relieving_factors": ["When they have time together without stress", "When Maria's sugar is stable", "When Rafael's aunt takes him out", "Good days feel like old times — but rare now"]
+        },
+
+        "heuristic_4_accompanying": {
+          "associated_symptoms": ["Maria: poor sleep, guilt, crying spells, neglecting self-care", "Rafael: angry outbursts, social withdrawal, declining grades, may be getting in fights at school", "Sofia: quiet, stomach aches, nightmares"],
+          "absent_symptoms": ["No suicidal ideation in either", "No substance use in Rafael", "No physical abuse"],
+          "constitutional": {
+            "fever": false,
+            "weight_change": "Maria gained 2 kg (stress eating, stopped walking)",
+            "fatigue": true
+          }
+        }
+      },
+
+      "ideas_concerns_expectations": {
+        "ideas": "Maria thinks her diabetes is making her a bad mother. Rafael thinks his mother doesn't care about him anymore, only her health. Both are wrong, but they can't see it.",
+        "concerns": "Maria: losing her children emotionally, children being damaged by her illness. Rafael: losing his mother like he lost his grandfather, having to become the man of the house too young.",
+        "expectations": "Maria hopes doctor can help her understand what's happening and maybe talk to Rafael. Rafael didn't want to come but his aunt convinced him — secretly hoping someone will listen to him."
+      },
+
+      "rafael_perspective": {
+        "_note": "The son's viewpoint — to be revealed through careful exploration",
+        "what_rafael_knows": "Knows mother has diabetes. Knows grandfather died young. Knows money is tight. Knows mother works too hard.",
+        "what_rafael_feels": "Scared mother will die. Angry at having to be responsible. Embarrassed about being poor. Resentful that mother is always tired or angry. Guilty for being angry. Loves his mother deeply underneath.",
+        "what_rafael_fears": "Mother dying. Being abandoned. Having to take care of Sofia alone. Never having a normal life.",
+        "what_rafael_does": "Acts out to get attention. Skips school because he's exhausted and ashamed. Gets in fights when kids make comments. Pushes mother away because it hurts less than watching her struggle.",
+        "what_rafael_needs": "Someone to acknowledge how hard this is for him. Permission to be a kid. Reassurance that his mother won't die. To know he's not responsible for fixing everything."
+      },
+
+      "diabetes_mood_connection": {
+        "_note": "The link between blood sugar and irritability — key insight for this case",
+        "physiology": "Hyperglycemia causes fatigue, difficulty concentrating, and irritability. Blood sugar swings create mood instability. Chronic high glucose is associated with depression and anxiety.",
+        "what_maria_notices": "She's sharper with the kids when she hasn't taken her medication or when she's eaten poorly. She says things she regrets and then feels guilty. This makes her stressed, which raises her sugar, which makes it worse.",
+        "the_cycle": "Poor diabetes control → irritability → conflict with Rafael → stress → worse diabetes control → more irritability. The family system is caught in this loop.",
+        "breaking_the_cycle": "Better glucose control may reduce mood swings. But also: reducing family stress may help glucose control. Both need to be addressed together."
+      },
+
+      "for_follow_up": {
+        "previous_consultation_summary": "Consultation 2: diabetes improving, son's school problems emerging as concern but not yet addressed directly.",
+        "what_was_recommended": ["Continue medications", "Keep diabetesverpleegkundige appointments", "Complete fundoscopy", "Consider talking to son about what's happening"],
+        "what_patient_remembers": ["Doctor was concerned about Rafael", "Suggested I talk to him", "Eye exam showed something — mild damage"],
+        "what_patient_forgot": ["Specific advice about managing stress", "Whether to involve school or not"],
+        "interval": {
+          "duration": "Three months",
+          "symptom_evolution": "worsened",
+          "compliance": {
+            "medications": "partial",
+            "lifestyle": "poor",
+            "details": "Takes medication but not consistently timed. Stopped walking due to exhaustion. Eating more comfort food. Missed two diabetesverpleegkundige appointments."
+          },
+          "patient_experience": "Last three months have been the hardest of her life. Feels like she's drowning. Sister is worried about her. School has called multiple times about Rafael."
+        },
+        "results": {
+          "tests": {
+            "HbA1c": "71 mmol/mol (was 68 — going up again)",
+            "Fasting_glucose": "10.5 mmol/L",
+            "BP": "152/94 mmHg (worse)",
+            "Weight": "82 kg (gained 2 kg)"
+          },
+          "interpretation": "Diabetes control deteriorating due to stress and decreased self-care. Hypertension worsening. Family crisis is both consequence and cause of poor health.",
+          "how_to_explain": "Your numbers have gone up a bit, and I think we both know why. But I'm more worried about what's happening at home than these numbers right now."
+        }
+      },
+
+      "red_flags": {
+        "present": [
+          "Diabetes control worsening after improvement",
+          "Family system in crisis",
+          "Adolescent acting out (school suspension, possible fights)",
+          "Younger child showing symptoms (withdrawal, somatic complaints)",
+          "Caregiver burnout in Maria",
+          "Retinopathy detected (mild but present)"
+        ],
+        "absent": ["No suicidal ideation", "No physical abuse", "No substance use", "No acute medical emergency"],
+        "notes": "This is a psychosocial emergency even if not a medical one. The family system needs intervention. If not addressed, Maria's health will continue to decline and children will be harmed."
+      },
+
+      "diagnosis": {
+        "working_diagnosis": "Type 2 diabetes with worsening control in context of family crisis and bidirectional mood-glucose interaction",
+        "differential": ["Depression (Maria)", "Adjustment disorder (Rafael)", "Family systems dysfunction"],
+        "key_findings": [
+          "HbA1c rising again after improvement",
+          "Retinopathy detected",
+          "Blood sugar swings contributing to irritability",
+          "Family conflict creating chronic stress",
+          "Adolescent showing signs of distress",
+          "Younger child also affected",
+          "Vicious cycle: diabetes ↔ stress ↔ family conflict"
+        ]
+      },
+
+      "simulation_guidance": {
+        "initial_presentation": "Maria comes in with Rafael. She's requested extra time. Maria sits down, looking exhausted. Rafael sits apart, arms crossed, staring at the floor. Maria says: 'Thank you for seeing us. I... I don't know where to start. Things at home...' *looks at Rafael* '...we need help.'",
+
+        "two_patients_in_room": {
+          "_note": "This consultation involves both Maria and Rafael. Student must manage both.",
+          "maria_behavior": "Will cry at some point. Keeps looking at Rafael, hoping he'll engage. Feels guilty talking about problems in front of him. Wants doctor to 'fix' Rafael but also knows she's part of the problem.",
+          "rafael_behavior": "Starts silent and hostile. Arms crossed. One-word answers. BUT — if doctor addresses him directly with respect (not talking about him but TO him), he may slowly open up. Key moment: if doctor asks 'What's this been like for you?' he may break.",
+          "dynamics": "Maria may try to speak for Rafael. Student should gently redirect to let Rafael speak for himself. Rafael may say something that hurts Maria — student needs to hold space for both."
+        },
+
+        "information_reveal": {
+          "freely_shared": [
+            "Maria: Things have gotten bad at home. We fight all the time.",
+            "Maria: My sugar's been up and down. I know I haven't been taking care of myself.",
+            "Maria: Rafael got suspended from school again.",
+            "Rafael: *silence, shrug*"
+          ],
+          "if_asked_directly": [
+            "Maria: I get angry when I'm tired. I say things I regret.",
+            "Maria: I noticed I'm worse when my sugar is high.",
+            "Maria: Sofia is having stomach aches and nightmares.",
+            "Rafael: School is stupid. (if asked about school)",
+            "Rafael: She's always tired or angry. (if asked about mother)"
+          ],
+          "if_asked_sensitively": [
+            "Maria: I think I'm becoming my mother. She was always sick and angry too.",
+            "Maria: I wonder if the children would be better off without me.",
+            "Maria: Rafael reminds me of his grandfather — his father. I see him shutting down the same way.",
+            "Rafael: I'm scared she's going to die like my grandfather. (if asked about his fears)",
+            "Rafael: I have to take care of everything. Sofia, the house, making sure mãe takes her pills. (if asked about responsibility)",
+            "Rafael: Kids at school say things about us. About being poor. About my mom. (if asked about school problems)"
+          ],
+          "will_not_share": [
+            "Rafael won't cry in front of his mother — but might if she steps out",
+            "Maria won't admit she's thought about whether children should live with her sister unless deeply trusted",
+            "Neither will discuss the depth of their fear without significant empathic groundwork"
+          ]
+        },
+
+        "emotional_moments": [
+          "When Maria admits she wonders if children would be better off without her",
+          "When doctor asks Rafael directly what this has been like for HIM",
+          "When the connection between Maria's blood sugar and her mood is explained",
+          "When Rafael admits he's scared his mother will die",
+          "When Maria realizes how much responsibility Rafael has been carrying",
+          "When doctor acknowledges this is hard for BOTH of them"
+        ],
+
+        "guardrails": [
+          "Maria stays in character as stressed, exhausted mother at breaking point",
+          "Rafael starts hostile but is actually desperate to be heard",
+          "Do not make Rafael talk if he's not ready — but create openings",
+          "If doctor talks ABOUT Rafael instead of TO him, he stays closed",
+          "If doctor takes sides, the other person withdraws",
+          "The breakthrough comes from acknowledging both perspectives",
+          "Do not pathologize Rafael — he's responding normally to abnormal circumstances",
+          "The diabetes-mood connection should be explained simply, not as excuse but as explanation",
+          "PACING NOTE: Rafael's transition from hostile to open should be gradual — he does not quickly become cooperative and understanding. Maintain resistance longer. This is flagged for user testing feedback."
+        ]
+      },
+
+      "maas_focus": {
+        "primary_scales": ["Scale B (Interpersonal)", "Scale 1 (ERFE)", "Scale 3 (Presenting Solutions)"],
+        "key_items": [
+          "1.2 — Provides room for patient's story (both patients)",
+          "1.3-1.5 — ICE for both Maria AND Rafael",
+          "2.13 — Social determinants affecting the whole family (intergenerational)",
+          "2.14 — Psychological aspects (depression, anxiety, family dynamics)",
+          "B.3 — Involves Rafael appropriately (not talked about, but included)",
+          "B.5 — Responds to emotions (both Maria's and Rafael's)",
+          "B.6 — Acknowledges both perspectives without taking sides",
+          "3.4 — Involves both in solution-finding"
+        ],
+        "learning_notes": "This advanced case teaches working with families and understanding the bidirectional relationship between chronic illness and family dynamics. Key insights: (1) Blood sugar affects mood — Maria's irritability is partly physiological, (2) Adolescents respond to parental illness with fear, anger, and taking on too much responsibility, (3) Social determinants cascade through generations, (4) The student must manage two people with different needs in the same room, (5) The cycle of illness → stress → worse illness must be named and broken. This case specifically addresses how poorly controlled diabetes causes mood changes (irritability, fatigue, depression) that damage relationships, and how family stress worsens diabetes control."
+      },
+
+      "learning_objectives": [
+        "Manage a consultation with multiple family members present",
+        "Recognize the bidirectional relationship between chronic illness and family dynamics",
+        "Understand how diabetes affects mood and irritability",
+        "Explore the adolescent perspective on parental chronic illness",
+        "Identify intergenerational effects of social determinants of health",
+        "Create treatment plans that address both medical and family systems"
+      ],
+
+      "resources_and_referrals": {
+        "_note": "What should be considered for this family",
+        "for_maria": ["Optimize diabetes control (may improve mood)", "POH-GGZ for stress/depression screening", "Diabetesverpleegkundige — discuss mood-sugar connection"],
+        "for_rafael": ["School maatschappelijk werker", "JGZ (Youth Health Service) consultation", "Consider referral for anxiety/adjustment support"],
+        "for_family": ["Family therapy referral", "Respite for Maria (can sister take kids some weekends?)", "Voedselbank if still food insecure"],
+        "for_sofia": ["Monitor at school", "May need support if symptoms continue"]
+      }
+    }
+  ],
+
+  "metadata": {
+    "author": "MAAS Practice",
+    "created": "2026-01-28",
+    "last_updated": "2026-01-28",
+    "tags": ["diabetes", "social determinants", "health equity", "chronic disease", "item 2.13", "follow-up", "continuity", "family stress", "european"],
+    "locale": {
+      "current": "nl-NL",
+      "note": "This case uses Dutch/European context (eigen risico, zorgverzekering, euros). Future versions should detect user locale and adapt: insurance systems, costs, social services terminology, measurement units."
+    },
+    "feedback_flags": [
+      "Information reveal pace — may be too easy for experienced students (await user testing)",
+      "Rafael emotional transition — may move from hostile to cooperative too quickly (await user testing)"
+    ]
+  }
+}

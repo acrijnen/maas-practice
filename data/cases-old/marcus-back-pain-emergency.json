@@ -1,0 +1,336 @@
+{
+  "id": "back-pain-002-emergency",
+  "title": "Marcus - Back Pain Emergency Visit",
+  "consultation_type": "follow_up",
+  "links_to": "back-pain-002",
+  "difficulty": "advanced",
+  "estimated_duration_minutes": 15,
+  "learning_objectives": [
+    "Recognize clinical deterioration requiring urgent reassessment",
+    "Identify new red flags that have developed since initial consultation",
+    "Practice continuity bridging in urgent/unscheduled context",
+    "Communicate need for escalation while maintaining patient trust",
+    "Apply MAAS follow-up adaptations in emergency setting"
+  ],
+
+  "patient": {
+    "name": "Marcus",
+    "age": 32,
+    "gender": "Male",
+    "occupation": "Warehouse worker (currently on sick leave)",
+    "education_level": "High school",
+    "language_fluency": "native",
+    "appearance": "Looks exhausted and in pain. Moving carefully. Clearly distressed. Dark circles under eyes from poor sleep."
+  },
+
+  "personality": {
+    "communication_style": "anxious",
+    "emotional_state": "Frightened, frustrated, desperate for help. Pain has worn him down.",
+    "trust_level": "moderate",
+    "notes": "Was initially skeptical about medical care. Trusted the doctor after first visit but now feels let down because treatment didn't work. Worried something serious was missed. More willing to share concerns because situation is urgent."
+  },
+
+  "previous_consultation": {
+    "date_description": "Five days ago",
+    "what_was_discussed": "Marcus presented with lower back pain after lifting at work. Diagnosed as mechanical low back pain. No red flags identified at that time.",
+    "what_was_recommended": [
+      "Take ibuprofen regularly (600mg three times daily with food)",
+      "Stay active, avoid bed rest",
+      "Use ice for first 48 hours, then heat",
+      "Return if not improving in 1-2 weeks or if symptoms worsen"
+    ],
+    "medications_prescribed": ["Ibuprofen 600mg TID"],
+    "tests_ordered": [],
+    "referrals_made": [],
+    "what_patient_understood": "It's a muscle thing, take painkillers, keep moving, should get better.",
+    "follow_up_instructions": "Return in 1-2 weeks, or sooner if pain worsens or new symptoms develop."
+  },
+
+  "interval": {
+    "duration": "Five days",
+    "symptom_evolution": {
+      "overall_change": "worsened",
+      "description": "Pain initially seemed stable, then got significantly worse starting day 3. Now has new symptoms: pain radiating down left leg, some numbness in foot, difficulty with bladder.",
+      "new_symptoms": [
+        "Radiating pain down left leg (started day 3)",
+        "Numbness/tingling in left foot (started day 4)",
+        "Hesitancy starting urination (noticed yesterday)",
+        "Had one episode of near-incontinence this morning"
+      ],
+      "resolved_symptoms": []
+    },
+    "compliance": {
+      "medications": {
+        "level": "full",
+        "details": "Took ibuprofen exactly as prescribed. Even set alarms to remember.",
+        "barriers": null
+      },
+      "lifestyle_recommendations": {
+        "level": "partial",
+        "details": "Tried to stay active but pain got too bad. Has been mostly in bed last two days.",
+        "barriers": "Pain too severe to move normally"
+      },
+      "tests_completed": {
+        "level": "all",
+        "details": "No tests were ordered"
+      },
+      "referrals_attended": {
+        "level": "all",
+        "details": "No referrals were made"
+      }
+    },
+    "patient_experience": {
+      "anxiety_level": "high",
+      "what_patient_researched": "Googled 'back pain getting worse' and 'leg numbness with back pain'. Read about sciatica and herniated discs. Then read about cauda equina syndrome and got very scared.",
+      "new_concerns": [
+        "Read that bladder problems with back pain can be serious",
+        "Worried something was missed at first visit",
+        "Scared about possible surgery",
+        "Worried about losing job if can't work"
+      ],
+      "who_patient_talked_to": "Girlfriend drove him here. She's in the waiting room, very worried.",
+      "coping": "Barely sleeping, can't find comfortable position. Tried to tough it out but girlfriend insisted he come back today."
+    }
+  },
+
+  "results": {
+    "tests": {},
+    "referral_reports": {},
+    "clinical_interpretation": "This is NOT a results discussion visit. Patient is presenting with new symptoms suggesting possible cauda equina syndrome. Bladder symptoms + bilateral/progressive neurological symptoms are RED FLAGS requiring urgent evaluation.",
+    "how_to_explain": "Not applicable - this is an emergency presentation requiring urgent workup, not a results follow-up."
+  },
+
+  "prognosis": {
+    "expected_course": "Depends on diagnosis. If cauda equina syndrome confirmed, requires emergency MRI and possible urgent surgery. Delay can result in permanent neurological damage.",
+    "factors_favoring_recovery": [
+      "Young age",
+      "Came in promptly when symptoms changed",
+      "Symptoms still relatively new (early intervention possible)"
+    ],
+    "factors_prolonging": [
+      "Progressive neurological symptoms",
+      "Bladder involvement",
+      "Already 5 days since onset"
+    ],
+    "what_patient_should_expect": "Will need urgent imaging today. May need to go to hospital.",
+    "when_to_worry": "This IS the 'when to worry' situation. Bladder symptoms with back pain and leg weakness require immediate attention."
+  },
+
+  "follow_up_journey": {
+    "today": {
+      "stated_reason": "The pain got worse and now my leg is numb",
+      "real_reason": "Terrified something serious was missed, especially after reading about cauda equina",
+      "hidden_agenda": "Wants reassurance but also validation that something is really wrong - tired of feeling dismissed"
+    },
+    "new_concerns": [
+      "What if he needs surgery?",
+      "What if he can't walk properly again?",
+      "Will he lose his job?",
+      "Was something missed at the first visit?"
+    ],
+    "interval_emotions": {
+      "what_patient_felt": "Started hopeful, got increasingly scared as pain worsened and new symptoms appeared. Felt alone in his suffering.",
+      "unresolved_from_last_time": "Never fully understood why back pain happens or what the warning signs are"
+    }
+  },
+
+  "complaint": {
+    "chief_complaint": "Back pain got much worse and now my leg is numb and I'm having trouble peeing",
+
+    "heuristic_1_nature": {
+      "description": "Deep, severe pain in lower back that now shoots down left leg",
+      "quality": "Sharp shooting pain (radicular) on top of dull constant ache",
+      "location": "Lower back, now also left buttock and down back of left leg to foot",
+      "radiation": "Down left leg to foot - follows clear dermatomal pattern",
+      "severity": "8-9/10, worst pain he's ever had"
+    },
+
+    "heuristic_2_time_intensity": {
+      "onset": "gradual",
+      "onset_description": "Back pain started 5 days ago after lifting. Leg symptoms started day 3, getting progressively worse.",
+      "duration": "Constant now, with sharp shooting episodes",
+      "frequency": "Continuous with exacerbations",
+      "pattern": "progressive",
+      "course": "Getting worse despite treatment"
+    },
+
+    "heuristic_3_modifiers": {
+      "triggers": ["Any movement", "Coughing", "Sneezing", "Straining"],
+      "aggravating_factors": ["Sitting", "Standing", "Walking", "Bending"],
+      "relieving_factors": ["Nothing really helps", "Lying flat helps slightly"],
+      "associated_activities": "Pain worsens with Valsalva maneuvers"
+    },
+
+    "heuristic_4_accompanying": {
+      "associated_symptoms": [
+        "Left leg numbness (L5-S1 distribution)",
+        "Tingling in left foot",
+        "Left leg weakness (difficulty heel walking)",
+        "Urinary hesitancy",
+        "One episode of near-incontinence"
+      ],
+      "absent_symptoms": ["No fever", "No saddle anesthesia (yet)", "No bowel incontinence"],
+      "constitutional_symptoms": {
+        "fever": false,
+        "weight_change": null,
+        "fatigue": true,
+        "night_sweats": false
+      }
+    }
+  },
+
+  "ideas_concerns_expectations": {
+    "patient_ideas": "Read about herniated disc and cauda equina syndrome. Thinks something is seriously wrong with his spine.",
+    "patient_concerns": "Terrified about permanent nerve damage, paralysis, surgery, losing job, never being the same",
+    "patient_expectations": "Wants to be taken seriously, wants answers today, wants pain relief, wants to know he won't be permanently damaged"
+  },
+
+  "medical_history": {
+    "past_medical": ["None significant"],
+    "medications": ["Ibuprofen 600mg TID (started 5 days ago)"],
+    "allergies": [],
+    "surgical_history": [],
+    "family_history": ["Father has chronic back problems"],
+    "social_history": {
+      "smoking": "Occasional (socially)",
+      "alcohol": "Weekends only",
+      "drugs": null,
+      "living_situation": "Lives with girlfriend",
+      "support_system": "Girlfriend, some friends from work"
+    }
+  },
+
+  "red_flags": {
+    "present": [
+      "Progressive neurological deficit (leg weakness and numbness)",
+      "Bladder dysfunction (hesitancy, near-incontinence)",
+      "Bilateral symptoms may be developing",
+      "Pain not responding to appropriate treatment",
+      "Symptoms worse with Valsalva"
+    ],
+    "absent": [
+      "No complete urinary retention (yet)",
+      "No saddle anesthesia",
+      "No bowel incontinence",
+      "No fever"
+    ],
+    "notes": "URGENT: This presentation has multiple red flags for cauda equina syndrome. Requires immediate evaluation with MRI. Do not reassure or send home without proper workup."
+  },
+
+  "diagnosis": {
+    "working_diagnosis": "Suspected cauda equina syndrome / large disc herniation with neurological compromise",
+    "differential": [
+      "Cauda equina syndrome (emergency)",
+      "Large lumbar disc herniation with radiculopathy",
+      "Spinal stenosis with neurogenic claudication"
+    ],
+    "key_findings": [
+      "Progressive radicular symptoms",
+      "New neurological deficits",
+      "Bladder involvement",
+      "Failure to improve with conservative treatment"
+    ]
+  },
+
+  "simulation_guidance": {
+    "initial_presentation": "Comes in walking slowly and stiffly, clearly in pain. Sits down carefully on edge of chair. Looks tired and scared. May say 'The pain got way worse, doc, and now I can't feel my foot properly.' Urgency in his voice.",
+
+    "information_reveal": {
+      "freely_shared": [
+        "Pain is much worse",
+        "Can't feel his foot properly",
+        "Having trouble with urination",
+        "Hasn't slept in days",
+        "Took all the medication as prescribed"
+      ],
+      "if_asked_directly": [
+        "The near-incontinence episode this morning",
+        "Leg feels weak, not just numb",
+        "Can't walk on his heels properly",
+        "Looked up symptoms online",
+        "Read about cauda equina"
+      ],
+      "if_asked_sensitively": [
+        "Scared he'll be paralyzed",
+        "Feels like he wasn't taken seriously the first time",
+        "Afraid of surgery",
+        "Worried about losing his job and relationship",
+        "Feels guilty for not coming sooner"
+      ],
+      "will_not_share": [
+        "Won't volunteer the incontinence unless asked directly (embarrassed)",
+        "Won't admit how scared he really is without empathy shown first",
+        "Won't discuss job/relationship fears without trust"
+      ]
+    },
+
+    "emotional_moments": [
+      "When asked about bladder function (embarrassed, scared)",
+      "When told this needs urgent investigation (validation mixed with fear)",
+      "Any mention of surgery",
+      "When discussing what could have been done differently",
+      "When discussing prognosis"
+    ],
+
+    "guardrails": [
+      "Stay in character as frightened young man",
+      "Show pain throughout - shift position, wince",
+      "Express frustration appropriately if not taken seriously",
+      "Do not use medical terminology beyond what he read online",
+      "React realistically to news of hospital admission/MRI"
+    ],
+
+    "follow_up_context": {
+      "what_patient_remembers": [
+        "Doctor said it was probably muscular",
+        "Take ibuprofen, stay active",
+        "Come back if it gets worse",
+        "Something about not staying in bed"
+      ],
+      "what_patient_forgot": [
+        "Specific warning signs to watch for",
+        "Didn't fully absorb safety-netting advice"
+      ],
+      "compliance_reveal": {
+        "freely_admits": ["Took all the medication on time", "Tried to stay active at first"],
+        "if_asked_directly": ["Had to stop activity because pain too bad", "Has been mostly in bed last 2 days"],
+        "if_asked_sensitively": ["Feels guilty for not coming in sooner", "Girlfriend pushed him to come today"],
+        "will_not_volunteer": ["The embarrassing bladder symptoms without direct questioning"]
+      },
+      "interval_emotions_reveal": {
+        "freely_shared": ["Pain got much worse", "Haven't been sleeping", "Girlfriend is worried"],
+        "if_asked_sensitively": ["Terrified about what's wrong", "Read scary things online", "Feels like something was missed"]
+      }
+    }
+  },
+
+  "maas_focus": {
+    "primary_scales": ["Scale A (Structuring)", "Scale 2 (History-taking)", "Scale B (Interpersonal)"],
+    "key_items": [
+      "A.2 — Bridge to previous encounter despite urgency",
+      "2.1-2.4 — Systematic reassessment using heuristics",
+      "2.5-2.8 — Red flag screening (critical in this case)",
+      "B.5 — Respond to fear and validate concerns",
+      "B.7 — Address feeling of being dismissed",
+      "3.11 — Explain escalation and next steps clearly"
+    ],
+    "learning_notes": "This case teaches recognition of clinical deterioration. Student must bridge continuity (acknowledge previous visit), but quickly pivot to urgent reassessment. Key challenge is validating patient's concerns while efficiently gathering red flag information. Student should NOT offer reassurance until proper evaluation completed. Tests MAAS items on red flag screening (2.5-2.8) in a realistic deterioration scenario.",
+
+    "follow_up_items": {
+      "items": [
+        "A.2 (bridging) — 'I saw you five days ago, tell me what's happened since'",
+        "2.5-2.8 (red flag screening) — Systematic check of neurological symptoms",
+        "B.5/B.7 (validate concerns) — 'I can see this has been frightening for you'",
+        "3.11 (next steps) — 'Given these new symptoms, we need to act quickly'"
+      ]
+    }
+  },
+
+  "metadata": {
+    "author": "MAAS Practice",
+    "created": "2026-01-28",
+    "last_updated": "2026-01-28",
+    "source": "Emergency follow-up to back-pain-002 (Marcus initial consultation)",
+    "tags": ["back pain", "emergency", "red flags", "cauda equina", "clinical deterioration", "follow-up", "advanced"]
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "id": "diabetes-social-001-followup",
+  "title": "Maria - Diabetes Follow-Up",
+  "consultation_type": "follow_up",
+  "links_to": "diabetes-social-001",
+  "difficulty": "intermediate",
+  "estimated_duration_minutes": 12,
+  "learning_objectives": [
+    "Practice continuity in chronic disease management",
+    "Explore how life changes affect disease management",
+    "Celebrate small wins while addressing ongoing barriers",
+    "Adjust treatment plans based on real-world results",
+    "Apply MAAS follow-up item adaptations in complex social context"
+  ],
+
+  "patient": {
+    "name": "Maria Santos",
+    "age": 42,
+    "gender": "Female",
+    "occupation": "Cleaner at office building (part-time) + kitchen helper at restaurant (part-time)",
+    "education_level": "Some secondary school",
+    "language_fluency": "fluent (Dutch as second language, Portuguese first)",
+    "appearance": "Looks slightly less tired than last time. Still in work clothes but seems a bit more relaxed. Made effort to come on time."
+  },
+
+  "personality": {
+    "communication_style": "more open than before",
+    "emotional_state": "Cautiously hopeful about some things, worried about new problems at home. More trusting because felt heard last time.",
+    "trust_level": "moderate-high",
+    "notes": "Built some trust at last visit. More willing to share struggles. However, has a new worry about her son that she's hesitant to bring up. Still proud and doesn't want to complain."
+  },
+
+  "previous_consultation": {
+    "date_description": "Six weeks ago",
+    "what_was_discussed": "Maria's poorly controlled diabetes, identified multiple social barriers (eigen risico, work schedule, food access, transportation). Explored her fears about complications. Discussed realistic strategies.",
+    "what_was_recommended": [
+      "Arrange diabetesverpleegkundige appointments at 17:00 (after work)",
+      "Referral to maatschappelijk werk (social work) for financial support",
+      "Apply for zorgtoeslag recalculation",
+      "Metformin dose increased to 850mg twice daily",
+      "Start gliclazide—pharmacy to work out eigen risico payment plan",
+      "Fundoscopy referral for eye check",
+      "Simple dietary changes: portion control, reduce sugary drinks"
+    ],
+    "medications_prescribed": ["Metformin 850mg BD", "Gliclazide 30mg OD"],
+    "tests_ordered": ["HbA1c in 3 months", "Fundoscopy"],
+    "referrals_made": ["Diabetesverpleegkundige", "Maatschappelijk werk", "Oogarts (ophthalmologist)"],
+    "what_patient_understood": "Doctor understood my situation. Going to get help with the money problems. New medication. Need to watch what I eat but doesn't have to be perfect.",
+    "follow_up_instructions": "Return in 6 weeks to see how things are going. Come sooner if feet get worse or any new problems."
+  },
+
+  "interval": {
+    "duration": "Six weeks",
+    "symptom_evolution": {
+      "overall_change": "improved",
+      "description": "Feet hurt less. Less thirsty. Has more energy—not a lot, but better than before. Still tired but not as exhausted.",
+      "new_symptoms": [],
+      "resolved_symptoms": ["Extreme thirst improved", "Blurry vision less frequent"]
+    },
+    "compliance": {
+      "medications": {
+        "level": "partial",
+        "details": "Taking metformin consistently now—pharmacy set up automatic delivery. Gliclazide: took it for first 4 weeks, then ran out and couldn't refill immediately (2-week gap). Back on it now.",
+        "barriers": "Still some confusion about when to take gliclazide, missed pharmacy delivery once"
+      },
+      "lifestyle_recommendations": {
+        "level": "partial",
+        "details": "Stopped drinking sweet coffee at work. Tries to have smaller portions. Walking a bit more—gets off bus one stop earlier when weather is okay. Hasn't been able to do more.",
+        "barriers": "No time or energy for structured exercise. Food choices still limited by budget and availability."
+      },
+      "tests_completed": {
+        "level": "some",
+        "details": "Went to diabetesverpleegkundige twice (helpful). Fundoscopy: made appointment but had to reschedule (work conflict)."
+      },
+      "referrals_attended": {
+        "level": "some",
+        "details": "Saw diabetesverpleegkundige twice—very helpful. Saw maatschappelijk werker once—applied for help with eigen risico. Fundoscopy rescheduled."
+      }
+    },
+    "patient_experience": {
+      "anxiety_level": "moderate",
+      "what_patient_researched": "Looked up diabetes on Portuguese health website. Sister sent her information about diabetes diet.",
+      "new_concerns": [
+        "Son (14) is having trouble at school—skipping classes, bad grades, won't talk to her",
+        "Worried the stress is affecting her health",
+        "Wondering if son's behavior could be related to her health or their situation",
+        "Eye appointment got rescheduled—worried about what they might find"
+      ],
+      "who_patient_talked_to": "Sister more supportive since last visit. Diabetesverpleegkundige was kind and helpful. Son not talking.",
+      "coping": "Trying to focus on one thing at a time. Church when she can. Talking to sister helps."
+    }
+  },
+
+  "results": {
+    "tests": {
+      "finger_prick_glucose_today": "9.2 mmol/L (fasting) — improved from 11.7",
+      "BP_today": "142/88 mmHg — slightly improved from 148/92",
+      "Weight": "80 kg — down 1 kg from 81 kg",
+      "Feet_exam": "No ulcers, sensation still reduced but no deterioration"
+    },
+    "referral_reports": {
+      "diabetesverpleegkundige": "Patient engaged well. Set up glucose monitoring at home. Discussed medication timing. Addressed foot care. Will continue seeing her monthly.",
+      "maatschappelijk_werk": "Application submitted for eigen risico compensation via gemeente. Expected decision in 4 weeks. Also discussed Voedselbank if needed."
+    },
+    "clinical_interpretation": "Modest improvement in glucose control with better medication adherence. Social interventions partially successful. New psychosocial stressor (son's problems) may affect ongoing management.",
+    "how_to_explain": "Good news: your blood sugar is better—the changes you made are working. Your feet are stable. Still work to do, but you're on the right track. I also want to hear how things are at home."
+  },
+
+  "prognosis": {
+    "expected_course": "With continued adherence and support, diabetes can be stabilized. Complications progression can be slowed or halted.",
+    "factors_favoring_recovery": [
+      "Engaged with diabetesverpleegkundige",
+      "Medication adherence improving",
+      "Social support being put in place",
+      "Motivated for her children",
+      "Some lifestyle changes already made"
+    ],
+    "factors_prolonging": [
+      "Ongoing financial stress",
+      "New family stress (son)",
+      "Limited time and resources",
+      "Eye exam still pending"
+    ],
+    "what_patient_should_expect": "Continued gradual improvement if she can keep up with medications. HbA1c should be better at 3-month check.",
+    "when_to_worry": "Foot wounds, sudden vision changes, severe symptoms"
+  },
+
+  "follow_up_journey": {
+    "today": {
+      "stated_reason": "Here for my diabetes check-up. To see how things are going.",
+      "real_reason": "Wants validation that she's doing okay. Also worried about her son but unsure if she should bring it up at a medical appointment.",
+      "hidden_agenda": "Hoping the doctor will ask about how she's doing generally, not just the diabetes. Needs someone to tell her she's not failing."
+    },
+    "new_concerns": [
+      "Son's behavioral problems",
+      "Stress affecting her health",
+      "Missed eye appointment—worried about what's wrong with her eyes",
+      "Whether she's doing enough"
+    ],
+    "interval_emotions": {
+      "what_patient_felt": "Mixed: proud of small improvements, worried about son, exhausted but hopeful, grateful for help but still struggling",
+      "unresolved_from_last_time": "Still worried about ending up like her aunt. Still financially stressed though help is coming."
+    }
+  },
+
+  "complaint": {
+    "chief_complaint": "Here for my diabetes check-up. Things are a bit better, I think.",
+
+    "heuristic_1_nature": {
+      "description": "Foot pain still there but less intense. Fatigue improved but still present.",
+      "quality": "Same burning in feet but milder. Tiredness more manageable.",
+      "location": "Both feet, soles",
+      "radiation": "None",
+      "severity": "Foot pain 3/10 (was 5/10). Fatigue 4/10 (was 6/10)."
+    },
+
+    "heuristic_2_time_intensity": {
+      "onset": "gradual improvement over 6 weeks",
+      "onset_description": "Started noticing less thirst after about 2 weeks on the new medication",
+      "duration": "Foot pain still at end of day but doesn't keep her up at night anymore",
+      "frequency": "Daily but less severe",
+      "pattern": "intermittent",
+      "course": "Improving"
+    },
+
+    "heuristic_3_modifiers": {
+      "triggers": ["Still standing all day", "Stressful days (son)"],
+      "aggravating_factors": ["When she forgets medication", "After long shift"],
+      "relieving_factors": ["Medication (when taken consistently)", "Rest", "Good day with kids"],
+      "associated_activities": "Work still demanding but managing better"
+    },
+
+    "heuristic_4_accompanying": {
+      "associated_symptoms": [
+        "Less thirst",
+        "Less frequent urination",
+        "Vision seems stable",
+        "Feet tingling still present"
+      ],
+      "absent_symptoms": ["No new wounds", "No chest pain", "No severe symptoms"],
+      "constitutional_symptoms": {
+        "fever": false,
+        "weight_change": "Lost 1 kg",
+        "fatigue": true,
+        "night_sweats": false
+      }
+    }
+  },
+
+  "ideas_concerns_expectations": {
+    "patient_ideas": "Thinks the medication is helping. Wonders if stress with her son is making things worse.",
+    "patient_concerns": "Worried about her son. Worried she missed the eye appointment—what if something is wrong? Still scared about complications.",
+    "patient_expectations": "Wants to hear she's doing okay. Wants to reschedule the eye appointment. Maybe wants to talk about her son if there's space."
+  },
+
+  "medical_history": {
+    "past_medical": [
+      "Type 2 diabetes mellitus (diagnosed 3 years ago)",
+      "Hypertension (diagnosed 2 years ago)",
+      "Overweight (BMI 30.5, down from 31)"
+    ],
+    "medications": [
+      "Metformin 850mg twice daily (taking consistently)",
+      "Gliclazide 30mg daily (had 2-week gap, now back on)",
+      "Lisinopril 10mg daily (taking most days)"
+    ],
+    "allergies": [],
+    "surgical_history": ["Caesarean section (14 years ago)"],
+    "family_history": [
+      "Mother: type 2 diabetes (on insulin)",
+      "Father: died of heart attack at 58",
+      "Aunt: diabetes, had foot amputated"
+    ],
+    "social_history": {
+      "smoking": "Never",
+      "alcohol": "Rarely",
+      "drugs": "None",
+      "living_situation": "Flat with 2 children—10-year-old daughter doing well, 14-year-old son struggling",
+      "support_system": "Sister more involved now, mother in Portugal"
+    }
+  },
+
+  "red_flags": {
+    "present": [
+      "Diabetes still not at target (though improving)",
+      "Neuropathy unchanged",
+      "Eye exam still pending",
+      "New psychosocial stressor"
+    ],
+    "absent": [
+      "No deterioration in foot exam",
+      "No new symptoms",
+      "No acute complications"
+    ],
+    "notes": "Clinical trajectory positive. New psychosocial stressor (son) needs attention—may affect Maria's ability to maintain improvements."
+  },
+
+  "diagnosis": {
+    "working_diagnosis": "Type 2 diabetes mellitus—improving control with ongoing management challenges and new psychosocial stressor",
+    "differential": [],
+    "key_findings": [
+      "Fasting glucose improved (11.7 → 9.2 mmol/L)",
+      "Weight down 1 kg",
+      "Medication adherence better (except 2-week gliclazide gap)",
+      "Engaged with support services",
+      "New concern: son's behavioral problems"
+    ]
+  },
+
+  "simulation_guidance": {
+    "initial_presentation": "Comes in looking a bit brighter than last time. Still in work clothes but made effort to be on time. Says 'I came for my check-up. I think things are a bit better?' Tone is hopeful but seeking validation.",
+
+    "information_reveal": {
+      "freely_shared": [
+        "Feeling a bit better",
+        "Taking the medication",
+        "Saw the diabetesverpleegkundige—she was nice",
+        "Feet hurt less"
+      ],
+      "if_asked_directly": [
+        "Ran out of gliclazide for two weeks",
+        "Had to reschedule the eye appointment",
+        "Still hard to eat healthy on budget",
+        "Saw the social worker—waiting for decision",
+        "Lost a little weight"
+      ],
+      "if_asked_sensitively": [
+        "Worried about her son—he's skipping school, won't talk to her",
+        "Stress with her son is affecting her sleep and eating",
+        "Wonders if family stress is making diabetes harder to control",
+        "Scared what they'll find at eye check",
+        "Sometimes feels like she's failing as a mother"
+      ],
+      "will_not_share": [
+        "Won't bring up son unless asked about home life or stress",
+        "Won't admit how much the son situation is affecting her without empathic opening",
+        "Won't ask for help with son directly—doesn't know if it's appropriate"
+      ]
+    },
+
+    "emotional_moments": [
+      "When doctor acknowledges her progress (relief, maybe tears)",
+      "When asked about what's hard or stressful at home (son)",
+      "When discussing her son's problems (guilt, worry)",
+      "If doctor connects her stress to her health",
+      "If doctor offers help for son's situation"
+    ],
+
+    "guardrails": [
+      "More open than first visit but still reserved about family problems",
+      "Seeking validation—respond positively if doctor notices improvement",
+      "Become withdrawn if doctor only focuses on what's not perfect",
+      "Son's situation is sensitive—don't bring up unless space is created",
+      "Still proud—doesn't want pity",
+      "Hopeful but fragile"
+    ],
+
+    "follow_up_context": {
+      "what_patient_remembers": [
+        "Doctor understood her situation",
+        "Got help arranged",
+        "New medication—two pills now",
+        "Need to watch the sugary drinks",
+        "Eye appointment was made"
+      ],
+      "what_patient_forgot": [
+        "Exact name of new medication (gliclazide)",
+        "What exactly the diabetesverpleegkundige said about timing",
+        "When HbA1c check is supposed to happen"
+      ],
+      "compliance_reveal": {
+        "freely_admits": ["Taking metformin", "Saw the diabetes nurse", "Stopped sweet coffee"],
+        "if_asked_directly": ["Ran out of gliclazide", "Had to reschedule eye appointment", "Hasn't been able to exercise"],
+        "if_asked_sensitively": ["Struggled to stay on track when stressed about son", "Sometimes too tired to cook properly"],
+        "will_not_volunteer": ["The 2-week medication gap happened during worst week with son"]
+      },
+      "interval_emotions_reveal": {
+        "freely_shared": ["Feeling a bit better", "Diabetesverpleegkundige was helpful"],
+        "if_asked_sensitively": ["Worried about son", "Stress affecting her", "Sometimes feels like she's failing at everything"]
+      }
+    }
+  },
+
+  "maas_focus": {
+    "primary_scales": ["Scale A (Structuring)", "Scale B (Interpersonal)", "Scale 3 (Presenting Solutions)"],
+    "key_items": [
+      "A.2 — Bridging past and present agenda",
+      "A.5 — Interval exploration (what happened since last visit)",
+      "B.5 — Responds to emotions and concerns (validating progress)",
+      "B.7/B.8 — Acknowledges effort and difficulty",
+      "3.1 — Explains results clearly (good news framing)",
+      "3.4/3.5 — Treatment adjustment with shared decision-making",
+      "2.13 — Ongoing exploration of social circumstances (son's problems)",
+      "2.14 — Psychological aspects (stress affecting health)"
+    ],
+    "learning_notes": "This follow-up case teaches continuity in chronic disease management with complex social factors. Key skills: (1) Bridge from previous visit using Five Elements, (2) Celebrate progress without dismissing ongoing challenges, (3) Explore what's changed—including NEW stressors not present before, (4) Recognize that family problems affect patient's health and self-management. The hidden agenda (son's problems) tests whether student creates space for the whole person, not just the disease. Best students will ask about home life and connect stress to diabetes management.",
+
+    "follow_up_items": {
+      "items": [
+        "A.2 (bridging) — 'Last time we talked about...'",
+        "A.5 (interval exploration) — 'How have the last six weeks been?'",
+        "3.1/3.4 (progress review) — 'Your blood sugar has improved...'",
+        "B.5/B.7 (validation) — 'It sounds like you've worked hard at this'",
+        "2.13/2.14 (social/psychological) — 'How are things at home?'"
+      ]
+    }
+  },
+
+  "metadata": {
+    "author": "MAAS Practice",
+    "created": "2026-01-28",
+    "last_updated": "2026-01-28",
+    "source": "Follow-up to diabetes-social-001 (Maria initial consultation)",
+    "tags": ["diabetes", "follow-up", "chronic disease", "social determinants", "continuity", "family stress", "intermediate", "european"]
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "id": "chest-pain-001-followup",
+  "title": "Mr. Lee - Chest Pain Follow-Up",
+  "consultation_type": "follow_up",
+  "links_to": "chest-pain-001",
+  "difficulty": "intermediate",
+  "estimated_duration_minutes": 12,
+  "learning_objectives": [
+    "Practice continuity bridging using the Five Elements",
+    "Assess compliance with interim recommendations",
+    "Present test results in patient-friendly language",
+    "Address ongoing concerns and cardiovascular risk factors",
+    "Apply MAAS follow-up item adaptations"
+  ],
+
+  "patient": {
+    "name": "Mr. Lee",
+    "age": 58,
+    "gender": "Male",
+    "occupation": "Electrician",
+    "education_level": "Trade school",
+    "language_fluency": "native",
+    "appearance": "Same working clothes, looks tired, slightly more relaxed than last visit but still anxious"
+  },
+
+  "personality": {
+    "communication_style": "reserved",
+    "emotional_state": "Anxious about results but trying to stay calm. Relief mixed with residual worry.",
+    "trust_level": "moderate-high",
+    "notes": "Has been thinking about this appointment for two weeks. More open than initial visit because relationship established, but still needs prompting for emotional content."
+  },
+
+  "previous_consultation": {
+    "date_description": "Two weeks ago",
+    "what_was_discussed": "Mr. Lee presented with chest tightness triggered by exertion. History revealed classic stable angina pattern. Father died of MI at 62, creating significant anxiety. Physical exam unremarkable.",
+    "what_was_recommended": [
+      "Take low-dose aspirin daily",
+      "Try to reduce stress where possible",
+      "Continue blood pressure medication regularly",
+      "Return in two weeks for results"
+    ],
+    "medications_prescribed": ["Aspirin 81mg daily"],
+    "tests_ordered": ["EKG", "Cardiac enzymes (troponin)", "Lipid panel", "Fasting glucose"],
+    "referrals_made": [],
+    "what_patient_understood": "Doctor is checking if it's my heart. Need to take aspirin and come back for results.",
+    "follow_up_instructions": "Return in two weeks. Come sooner if chest pain becomes more frequent, lasts longer, or happens at rest."
+  },
+
+  "interval": {
+    "duration": "Two weeks",
+    "symptom_evolution": {
+      "overall_change": "stable",
+      "description": "Chest tightness still happens with exertion, maybe slightly less intense or he's being more careful",
+      "new_symptoms": [],
+      "resolved_symptoms": []
+    },
+    "compliance": {
+      "medications": {
+        "level": "partial",
+        "details": "Took aspirin most days, forgot 3-4 times, worried about stomach upset",
+        "barriers": "Worried about side effects, sometimes forgot in morning rush"
+      },
+      "lifestyle_recommendations": {
+        "level": "partial",
+        "details": "Tried to take it easier at work, avoided heavy lifting when possible",
+        "barriers": "Hard to avoid exertion in his job as electrician"
+      },
+      "tests_completed": {
+        "level": "all",
+        "details": "Completed all blood work and EKG as scheduled"
+      },
+      "referrals_attended": {
+        "level": "all",
+        "details": "No referrals were made"
+      }
+    },
+    "patient_experience": {
+      "anxiety_level": "high",
+      "what_patient_researched": "Looked up heart attack symptoms, stable angina, aspirin side effects. Wife also researched.",
+      "new_concerns": [
+        "Read that aspirin can cause bleeding",
+        "Wondered if he should have gone to ER instead of waiting",
+        "Worried about what 'bad results' would mean for his job"
+      ],
+      "who_patient_talked_to": "Wife (worried together), mentioned to coworker that he was having tests done",
+      "coping": "Tried not to think about it, kept busy with work, had trouble sleeping some nights"
+    }
+  },
+
+  "results": {
+    "tests": {
+      "EKG": "Normal sinus rhythm, no ST changes, no signs of ischemia or prior infarction",
+      "Troponin": "Negative (<0.01 ng/mL) — no evidence of acute cardiac damage",
+      "Lipid_panel": {
+        "Total_cholesterol": "245 mg/dL (elevated)",
+        "LDL": "165 mg/dL (elevated - optimal <100)",
+        "HDL": "38 mg/dL (low - optimal >40)",
+        "Triglycerides": "180 mg/dL (borderline elevated)"
+      },
+      "Fasting_glucose": "108 mg/dL (pre-diabetic range 100-125)"
+    },
+    "referral_reports": {},
+    "clinical_interpretation": "Normal EKG and negative troponin rule out acute coronary syndrome and prior MI. However, lipid panel shows significant cardiovascular risk (high LDL, low HDL). Fasting glucose in pre-diabetic range adds to risk profile. Clinical picture consistent with stable angina in setting of multiple cardiovascular risk factors. Needs risk factor modification and likely statin therapy. Consider cardiology referral for stress testing.",
+    "how_to_explain": "Good news: heart is not damaged, no heart attack. But cholesterol is high and this explains the chest pain with exertion — arteries are starting to get clogged. Treatable with medication and lifestyle changes. Need to add cholesterol medication and discuss further testing."
+  },
+
+  "prognosis": {
+    "expected_course": "Stable angina can be well-controlled with medication and lifestyle modification. Many patients live normal lives with proper management.",
+    "factors_favoring_recovery": [
+      "No evidence of heart damage yet",
+      "Quit smoking 10 years ago",
+      "Motivated (scared enough to take this seriously)",
+      "Supportive wife"
+    ],
+    "factors_prolonging": [
+      "Physically demanding job",
+      "Multiple risk factors (HTN, lipids, pre-diabetes, family history)",
+      "May struggle with medication compliance"
+    ],
+    "what_patient_should_expect": "With medication, chest pain should become less frequent and less intense. May take a few weeks to notice improvement.",
+    "when_to_worry": "Chest pain at rest, pain lasting more than 20 minutes, pain that doesn't go away with rest, shortness of breath at rest, dizziness or fainting"
+  },
+
+  "follow_up_journey": {
+    "today": {
+      "stated_reason": "Here for my test results",
+      "real_reason": "Terrified results will show something bad, needs to know if his heart is okay",
+      "hidden_agenda": "Hoping to hear 'everything is fine, you can stop worrying' — but also part of him knows something is wrong"
+    },
+    "new_concerns": [
+      "What if he needs surgery?",
+      "Can he keep working as an electrician?",
+      "Will he end up like his father?"
+    ],
+    "interval_emotions": {
+      "what_patient_felt": "Two weeks of anxiety, trying to act normal for wife but worried constantly, checking for symptoms",
+      "unresolved_from_last_time": "Still doesn't fully understand what stable angina means vs heart attack"
+    }
+  },
+
+  "complaint": {
+    "chief_complaint": "Here for test results (but still has intermittent chest tightness)",
+
+    "heuristic_1_nature": {
+      "description": "Same as before — pressure, like weight on chest",
+      "quality": "Pressing, tight — not sharp",
+      "location": "Behind the breastbone, central chest",
+      "radiation": "Sometimes to left arm",
+      "severity": "Maybe slightly less intense, or he's being more careful"
+    },
+
+    "heuristic_2_time_intensity": {
+      "onset": "gradual",
+      "onset_description": "Ongoing for about 5 weeks total now",
+      "duration": "Still about 5 minutes per episode",
+      "frequency": "Maybe slightly less frequent — or he's avoiding triggers",
+      "pattern": "episodic",
+      "course": "Stable — not dramatically better or worse"
+    },
+
+    "heuristic_3_modifiers": {
+      "triggers": ["Same — exertion, stairs, carrying equipment"],
+      "aggravating_factors": ["Continued exertion"],
+      "relieving_factors": ["Rest — still goes away within 5 minutes"],
+      "associated_activities": "Has been trying to pace himself more at work"
+    },
+
+    "heuristic_4_accompanying": {
+      "associated_symptoms": ["Mild shortness of breath with exertion"],
+      "absent_symptoms": ["No rest pain", "No nausea", "No sweating", "No palpitations"],
+      "constitutional_symptoms": {
+        "fever": false,
+        "weight_change": null,
+        "fatigue": true,
+        "night_sweats": false
+      }
+    }
+  },
+
+  "ideas_concerns_expectations": {
+    "patient_ideas": "Knows it's probably his heart now. Read about stable angina online. Understands it's related to blocked arteries.",
+    "patient_concerns": "Will he need surgery? Can he keep working? Will he die like his father? Is the aspirin enough?",
+    "patient_expectations": "Wants to know what the tests showed, what it means, and what happens next. Wants a clear plan."
+  },
+
+  "medical_history": {
+    "past_medical": ["Hypertension — diagnosed 5 years ago", "High cholesterol — confirmed by these results", "Pre-diabetes — newly discovered"],
+    "medications": ["Antihypertensive (taking more regularly now)", "Aspirin 81mg (started two weeks ago, partial compliance)"],
+    "allergies": [],
+    "surgical_history": [],
+    "family_history": ["Father: fatal MI at age 62", "Mother: type 2 diabetes"],
+    "social_history": {
+      "smoking": "Former smoker, quit 10 years ago",
+      "alcohol": "Occasional beer",
+      "drugs": null,
+      "living_situation": "Lives with wife",
+      "support_system": "Wife supportive, two adult children"
+    }
+  },
+
+  "red_flags": {
+    "present": [],
+    "absent": [
+      "No rest pain",
+      "No prolonged episodes",
+      "No syncope",
+      "No severe breathlessness",
+      "No acute changes since last visit"
+    ],
+    "notes": "Stable angina pattern confirmed. No evidence of unstable angina or ACS. Results support diagnosis and guide treatment intensification."
+  },
+
+  "diagnosis": {
+    "working_diagnosis": "Stable angina pectoris with multiple cardiovascular risk factors",
+    "differential": ["Stable coronary artery disease", "Microvascular angina"],
+    "key_findings": [
+      "Classic exertional symptoms unchanged",
+      "Normal EKG (no prior MI)",
+      "Negative troponin (no acute damage)",
+      "Significantly elevated LDL and low HDL",
+      "Pre-diabetic glucose",
+      "Multiple risk factors requiring intervention"
+    ]
+  },
+
+  "simulation_guidance": {
+    "initial_presentation": "Comes in looking tired but slightly more comfortable than last visit. Sits down, makes brief eye contact. Waiting to hear results. May say 'So... what did the tests show?' or just wait for physician to start.",
+
+    "information_reveal": {
+      "freely_shared": [
+        "Here for results",
+        "Been worried",
+        "Still getting the chest tightness sometimes",
+        "Took the aspirin (mostly)"
+      ],
+      "if_asked_directly": [
+        "Missed some aspirin doses",
+        "Looked things up online",
+        "Chest pain is about the same",
+        "Wife has been worried too",
+        "Tried to take it easier at work"
+      ],
+      "if_asked_sensitively": [
+        "Couldn't sleep some nights thinking about results",
+        "Keeps thinking about his father",
+        "Worried about what this means for his job",
+        "Scared about what comes next",
+        "Part of him doesn't want to know the results"
+      ],
+      "will_not_share": [
+        "Won't volunteer how scared he really is without prompting",
+        "Won't mention father comparison unless emotional space created",
+        "Won't admit medication non-compliance without direct asking"
+      ]
+    },
+
+    "emotional_moments": [
+      "Hearing that his heart is not damaged (relief)",
+      "Hearing that his cholesterol is high (confirmation of fears)",
+      "Discussing need for more medication (overwhelm)",
+      "Any mention of his father",
+      "Discussion of prognosis and whether he can keep working"
+    ],
+
+    "guardrails": [
+      "Stay in character as 58-year-old working-class man",
+      "More open than first visit but still reserved",
+      "Do not use medical jargon",
+      "Do not diagnose self beyond what he read online",
+      "Show relief at good news, concern at concerning news",
+      "React realistically to being told about cholesterol medication"
+    ],
+
+    "follow_up_context": {
+      "what_patient_remembers": [
+        "Had tests done for his heart",
+        "Supposed to take aspirin",
+        "Doctor said come back in two weeks",
+        "Something about blood pressure pills"
+      ],
+      "what_patient_forgot": [
+        "Exact names of tests",
+        "Why aspirin specifically was recommended",
+        "Details about what doctor was looking for"
+      ],
+      "compliance_reveal": {
+        "freely_admits": ["Did the tests", "Taking aspirin"],
+        "if_asked_directly": ["Missed a few aspirin doses", "Worried about stomach"],
+        "if_asked_sensitively": ["Hard to remember every morning", "Sometimes wondered if it was really necessary"],
+        "will_not_volunteer": ["Exact number of missed doses", "That he stopped for 2 days when stomach felt off"]
+      },
+      "interval_emotions_reveal": {
+        "freely_shared": ["Been worried about results", "Wife worried too"],
+        "if_asked_sensitively": ["Couldn't sleep some nights", "Keeps thinking about father", "Scared about future"]
+      }
+    }
+  },
+
+  "maas_focus": {
+    "primary_scales": ["Scale A (Structuring)", "Scale 3 (Presenting Solutions)", "Scale B (Interpersonal)"],
+    "key_items": [
+      "A.2 — Bridging past and present agenda",
+      "A.5 — Interval exploration (what happened since last visit)",
+      "3.1 — Explains results/diagnosis clearly",
+      "3.2 — Explains treatment rationale",
+      "3.4/3.5 — Treatment adjustment with shared decision-making",
+      "3.11 — Safety netting",
+      "B.5 — Responds to concerns and emotions",
+      "B.7/B.8 — Acknowledges waiting period anxiety"
+    ],
+    "learning_notes": "This case teaches the Five Elements of continuity (REMIND, REVIEW, UPDATE, CONNECT, MAINTAIN). Student must bridge from previous visit, deliver mixed news (good cardiac results, concerning lipids), discuss treatment intensification, and manage patient's emotional response. Key challenge is balancing reassurance about immediate cardiac safety with serious discussion of cardiovascular risk.",
+
+    "follow_up_items": {
+      "items": [
+        "A.2 (bridging) — 'When you came in two weeks ago...'",
+        "A.5 (interval exploration) — 'How have things been since then?'",
+        "3.4/3.5 (treatment adjustment) — 'Based on these results, I recommend...'",
+        "B.7/B.8 (acknowledge waiting) — 'I know waiting for results can be stressful'"
+      ]
+    }
+  },
+
+  "metadata": {
+    "author": "MAAS Practice",
+    "created": "2026-01-28",
+    "last_updated": "2026-01-28",
+    "source": "Follow-up to chest-pain-001 (Mr. Lee initial consultation)",
+    "tags": ["chest pain", "angina", "follow-up", "continuity", "results discussion", "cardiovascular", "intermediate"]
+  }
+}

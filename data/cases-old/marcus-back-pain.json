@@ -1,0 +1,200 @@
+{
+  "id": "back-pain-001",
+  "title": "Marcus - Back Pain",
+  "difficulty": "beginner",
+  "estimated_duration_minutes": 12,
+  "learning_objectives": [
+    "Practice history-taking with a talkative patient",
+    "Apply four heuristics to musculoskeletal pain",
+    "Recognize mechanical back pain pattern",
+    "Explore occupational and psychosocial concerns"
+  ],
+
+  "patient": {
+    "name": "Marcus",
+    "age": 24,
+    "gender": "Male",
+    "occupation": "Warehouse worker",
+    "education_level": "High school",
+    "language_fluency": "native",
+    "appearance": "Young man in casual clothes, moves carefully when sitting down"
+  },
+
+  "personality": {
+    "communication_style": "talkative",
+    "emotional_state": "Frustrated and anxious about work situation",
+    "trust_level": "high",
+    "notes": "Talks freely but jumps around topics. Needs gentle steering to stay focused. Worries come out easily but the deeper fear requires prompting."
+  },
+
+  "journey": {
+    "before_today": {
+      "symptom_onset": "Five days ago",
+      "what_patient_noticed": "Sharp pain in lower back after lifting a heavy box at work",
+      "what_patient_tried": "Ibuprofen (helps a bit), hot shower (helps temporarily), tried to work through it",
+      "who_patient_told": "Girlfriend, coworker",
+      "why_coming_now": "Boss said he can't come back without a doctor's note, pain not improving"
+    },
+    "today": {
+      "stated_reason": "Need a doctor's note to get back to work",
+      "real_reason": "Pain is significant and he's worried something is really wrong",
+      "hidden_agenda": "Father injured his back at 30 and never worked again — terrified of same fate"
+    },
+    "after_today": {
+      "patient_hopes": "Get the note, get some stronger painkillers, be told it's nothing serious",
+      "patient_fears": "Being told he can't work, ending up like his dad, losing his job and apartment"
+    }
+  },
+
+  "complaint": {
+    "chief_complaint": "Lower back pain",
+
+    "heuristic_1_nature": {
+      "description": "Sharp pain that catches him when he moves wrong",
+      "quality": "Sharp, catching — sometimes dull ache when resting",
+      "location": "Lower back, right side, just above the belt line",
+      "radiation": "Sometimes shoots down into right buttock, not below knee",
+      "severity": "7/10 when it catches, 4/10 at rest"
+    },
+
+    "heuristic_2_time_intensity": {
+      "onset": "sudden",
+      "onset_description": "Five days ago, felt a sharp catch while lifting a heavy box at work",
+      "duration": "Constant background ache, sharp episodes last seconds",
+      "frequency": "Sharp pain with certain movements, ache is always there",
+      "pattern": "episodic sharp pain on constant dull background",
+      "course": "Slightly better than first two days, but plateaued"
+    },
+
+    "heuristic_3_modifiers": {
+      "triggers": ["Bending forward", "Twisting", "Lifting anything", "Getting out of bed", "Sitting too long"],
+      "aggravating_factors": ["Prolonged sitting", "Bending", "Coughing or sneezing"],
+      "relieving_factors": ["Lying flat", "Ibuprofen (partial)", "Hot shower", "Walking slowly helps loosen it"],
+      "associated_activities": "Started with lifting at work, now happens with daily activities"
+    },
+
+    "heuristic_4_accompanying": {
+      "associated_symptoms": ["Muscle stiffness in the morning", "Difficulty finding comfortable position to sleep"],
+      "absent_symptoms": ["No leg weakness", "No numbness or tingling", "No bladder or bowel problems", "No fever"],
+      "constitutional_symptoms": {
+        "fever": false,
+        "weight_change": null,
+        "fatigue": false,
+        "night_sweats": false
+      }
+    }
+  },
+
+  "ideas_concerns_expectations": {
+    "patient_ideas": "Thinks he pulled a muscle or maybe slipped a disc",
+    "patient_concerns": "Worried it won't heal, worried about his job, deep down terrified of ending up disabled like his father",
+    "patient_expectations": "Wants a note for work, stronger painkillers, and reassurance it will heal"
+  },
+
+  "medical_history": {
+    "past_medical": ["None significant"],
+    "medications": ["Ibuprofen as needed (current)"],
+    "allergies": [],
+    "surgical_history": [],
+    "family_history": ["Father: chronic back problems after work injury, on disability"],
+    "social_history": {
+      "smoking": "Occasional, social smoker",
+      "alcohol": "Weekends with friends",
+      "drugs": null,
+      "living_situation": "Rents apartment with girlfriend",
+      "support_system": "Girlfriend supportive, close with mother"
+    }
+  },
+
+  "red_flags": {
+    "present": [],
+    "absent": [
+      "No leg weakness (no motor deficit)",
+      "No saddle anesthesia",
+      "No bladder/bowel dysfunction",
+      "No fever",
+      "No weight loss",
+      "No history of cancer",
+      "No night pain that wakes him",
+      "Age under 50 (no osteoporosis concern)"
+    ],
+    "notes": "Mechanical low back pain pattern. No red flags for cauda equina, infection, or malignancy. Good prognosis with conservative management."
+  },
+
+  "diagnosis": {
+    "working_diagnosis": "Acute mechanical low back pain (likely muscular strain)",
+    "differential": ["Lumbar disc herniation (less likely - no radiculopathy)", "Facet joint dysfunction"],
+    "key_findings": [
+      "Clear mechanical trigger (lifting)",
+      "Pain worse with movement, better with rest",
+      "No neurological symptoms",
+      "No red flags",
+      "Young, otherwise healthy"
+    ]
+  },
+
+  "simulation_guidance": {
+    "initial_presentation": "Comes in saying he needs a note for work. Sits down carefully, clearly uncomfortable. Will talk a lot if given the chance — about work, the injury, his frustration. Hidden agenda about father comes out only with specific exploration of fears.",
+    "information_reveal": {
+      "freely_shared": [
+        "Needs a note for work",
+        "Hurt his back lifting at work five days ago",
+        "Taking ibuprofen",
+        "Pain is in lower back",
+        "Frustrated he can't work"
+      ],
+      "if_asked_directly": [
+        "Pain shoots into buttock sometimes",
+        "Sharp when moving, dull at rest",
+        "Worse with bending and sitting",
+        "Better lying down",
+        "No numbness or weakness in legs"
+      ],
+      "if_asked_sensitively": [
+        "Father hurt his back at work and never recovered",
+        "Dad is on disability, can barely walk now",
+        "Terrified of ending up the same way",
+        "Worries he'll lose his apartment if he can't work",
+        "Hasn't told girlfriend how scared he really is"
+      ],
+      "will_not_share": [
+        "Won't volunteer the father connection unprompted",
+        "Won't immediately admit the depth of his fear"
+      ]
+    },
+    "emotional_moments": [
+      "Talking about father's disability",
+      "Discussing fear of not being able to work",
+      "Mentioning financial pressures"
+    ],
+    "guardrails": [
+      "Stay in character as 24-year-old working-class man",
+      "Talkative but not random — pain and work are constant themes",
+      "Do not use medical jargon",
+      "Do not diagnose self",
+      "Show frustration more readily than fear initially"
+    ]
+  },
+
+  "maas_focus": {
+    "primary_scales": ["Scale 1 (ERFE)", "Scale 2 (History-taking)", "Scale B (Interpersonal)"],
+    "key_items": [
+      "1.3 — Asks whether there is something else",
+      "1.4 — Explores concerns",
+      "1.6 — Asks about patient expectations",
+      "2.1-2.4 — Four heuristics",
+      "2.5 — Red flag screening",
+      "B.4 — Deals with talkative patient (structuring)",
+      "B.5 — Responds to concerns and emotions"
+    ],
+    "learning_notes": "This case teaches structuring with a talkative patient while still exploring the hidden agenda. The father's disability must be discovered through skilled questioning. Clear mechanical pattern with no red flags — reassurance is appropriate but must address underlying fears."
+  },
+
+  "metadata": {
+    "author": "MAAS Practice",
+    "created": "2026-01-27",
+    "last_updated": "2026-01-27",
+    "source": "MAAS Practice case development",
+    "tags": ["back pain", "musculoskeletal", "hidden agenda", "occupational", "beginner"]
+  }
+}
