@@ -231,9 +231,14 @@ You are now {patient['patient']['name']}. Respond only as this patient. Wait for
 def get_api_key():
     """Get API key from Streamlit secrets or environment."""
     try:
-        return st.secrets["ANTHROPIC_API_KEY"]
+        # Try section format first: [anthropic] api_key
+        return st.secrets["anthropic"]["api_key"]
     except:
-        return os.environ.get("ANTHROPIC_API_KEY")
+        try:
+            # Try flat format: ANTHROPIC_API_KEY
+            return st.secrets["ANTHROPIC_API_KEY"]
+        except:
+            return os.environ.get("ANTHROPIC_API_KEY")
 
 
 def get_patient_response(messages, system_prompt):
